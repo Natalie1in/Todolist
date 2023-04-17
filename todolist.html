@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./todolist.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="listBox">
+            <div class="inputBox">
+                <h2>Todo List</h2>
+                <input type="text" id="text" placeholder="要做什麼呢...">
+                <div id="btn">新增</div>
+            </div>
+
+            <ul id="list">
+                <li class="checked">DONE
+                    <span class="delete">x</span>
+                </li>
+                <li class="unchecked">UNDONE
+                    <span class="delete">x</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./todolist.js"></script>
+</body>
+
+</html>
